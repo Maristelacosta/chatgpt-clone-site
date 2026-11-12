@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+
+            <h2>ChatGPT Clone</h2>
+
+            <button id="new-chat">
+                + Nova Conversa
+            </button>
+
+            <button id="clear-chat">
+                Limpar Conversa
+            </button>
+
+        </aside>
+
+        <main class="chat-container">
+
+            <div id="messages">
+
+                <div class="bot">
+                    <p>Olá! Como posso ajudar?</p>
+                </div>
+
+            </div>
+
+            <form id="chat-form">
+
+                <textarea
+                    id="prompt"
+                    placeholder="Digite uma mensagem..."
+                ></textarea>
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </main>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
